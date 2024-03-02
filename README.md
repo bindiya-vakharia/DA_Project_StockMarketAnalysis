@@ -1,10 +1,20 @@
 # Stock Market Analysis Project
 
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Data Source](data-source)
+- [Tools](tools)
+- [Data Cleaning and Preparation](data-cleaning-and-preparation)
+- [Exploratory Data Analysis](exploratory-data-analysis)
+- [Analysis](analysis)
+- [Results/Findings](results/findings)
+- [Recommendation](recommendation)
+
 ### Project Overview
 
 This data analysis project is about a detailed financial analysis of the stock market data of two S&P500 companies; Moderna and Berkshire Hathaway. By analysing and sifting through the vast amount of financial data, we aim to extract, analyze, and visualize stock performance and investment risk, and return to pinpoint stocks that may be undervalued and identify various trends and patterns that will optimize the investment portfolio, maximizing returns while minimizing risks.
 
-### Data Sources
+### Data Source
 
 Stock Market Data: The primary dataset used for this analysis is the 'file_name' containing one year of historical data of Moderna, Berkshire Hathaway and S&P 500 from Yahoo Finance.
 
