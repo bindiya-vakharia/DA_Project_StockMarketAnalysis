@@ -11,14 +11,15 @@
 - [Recommendation](#recommendation)
 
 ### Project Overview
-
+---
 This data analysis project is about a detailed financial analysis of the stock market data of two S&P500 companies; Moderna and Berkshire Hathaway. By analysing and sifting through the vast amount of financial data, we aim to extract, analyze, and visualize stock performance and investment risk, and return to pinpoint stocks that may be undervalued and identify various trends and patterns that will optimize the investment portfolio, maximizing returns while minimizing risks.
 
 ### Data Source
-
+---
 Stock Market Data: The primary dataset used for this analysis is the 'file_name' containing one year of historical data of Moderna, Berkshire Hathaway and S&P 500 from Yahoo Finance.
 
 ### Tools
+---
 - Python - Data Cleaning and Visualization
   - Pandas
   - NumPy
@@ -28,20 +29,44 @@ Stock Market Data: The primary dataset used for this analysis is the 'file_name'
 - Excel - Data Visualisation
 
 ### Data Cleaning and Preparation
-
+---
 In the initial data preparation stage, we performed the following tasks:
 1. Data loading and inspection
 2. Handling missing values
 3. Data cleaning and Formating
 
 ### Exploratory Data Analysis
-
+---
 EDA involves exploring the stock market data to examine and summarize key characteristics of the dataset.
 - Identifying outliers in stock volume using a box plot.
+
+|Boxplot for S&P 500|
+|-------------------|
+![image](https://github.com/bindiya-vakharia/DA_Project/assets/161663134/a299864a-086a-4e38-b80a-9e7548efa95c)
+
+
+|Boxplot for Berkshire Hathaway|
+|-------------------|
+![image](https://github.com/bindiya-vakharia/DA_Project/assets/161663134/908ba468-bae5-484e-8e0f-5ca2176a0ec4)
+
+|Boxplot for Moderna|
+|-------------------|
+![image](https://github.com/bindiya-vakharia/DA_Project/assets/161663134/8d4fb0ce-9cac-48bb-9864-cecbabb04a61)
+
 - Explain the correlation between Moderna, Berkshire Hathaway and S&P 500 using Heat Map and Percentage Change line graph.
-- Visualizations, including candlestick charts and momentum charts to provide a holistic view of stock price actions throughout 2023.
+
+|Heat Map|
+|--------|
+![image](https://github.com/bindiya-vakharia/DA_Project/assets/161663134/7b861fd0-2ab4-479d-afce-9e7b52ffb60c)
+
+|Percentage Change Line Graph|
+|--------|
+![image](https://github.com/bindiya-vakharia/DA_Project/assets/161663134/30980109-363b-4ff5-b0e6-73b3ed879b5f)
+
+- Visualizations, including candlestick charts and momentum charts, to provide a holistic view of stock price actions throughout 2023.
 
 ### Analysis
+---
 - Future Price Projections in Excel offering insights into potential growth trajectories.
 - Linear Regression Model in Python to provide for model accuracy assessment.
 ```python
@@ -83,8 +108,10 @@ plt.show()
 ```
 
 ### Results/Findings
+---
 - Berkshire Hathaway and S&P 500 display more stability and show an upward trend in the future, making them a great investment choice.
 - Moderna exhibits significant price volatility.
 
 ### Recommendation
+---
 Based on the analysis, we recommend Berkshire Hathaway as a reliable choice for long-term investors and Moderna as an opportunity for those interested in healthcare and innovation. However, it is essential to note that financial markets are uncertain and past performance may not guarantee future results. Therefore, investors should exercise due diligence and consider risk tolerance while investing their money in the stock market. 
